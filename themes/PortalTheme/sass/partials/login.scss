@@ -1,0 +1,48 @@
+@import "variables";
+
+#loginform {
+
+	width: 100%;
+	
+	label {
+		width: 100%;
+		color:white;
+		font-weight: 400;
+	}
+
+	input[type=text],  input[type=password]{
+		width: 100%;
+		border: none;
+		padding: 5px 10px;
+
+		&:focus{
+			outline: none;
+		}
+	}
+
+	input[type=password] {
+		font-size: 13px;
+	}
+
+	p {
+		padding-top: 10px;
+	}
+
+	input[type="submit"] {
+		margin-top: 15px;
+		border: none;
+		cursor: pointer;
+		letter-spacing: 1px;
+		background: #FFF132;
+		color: black;
+		transition: none;
+		padding: 8px 30px 8px 30px;
+		font-size: 14px;
+	}
+
+	
+}
+
+.login-error {
+	color: #ca1f1f !important;
+}

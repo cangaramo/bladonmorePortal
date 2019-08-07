@@ -1,0 +1,29 @@
+@import "variables";
+
+footer {
+
+    background: $turquoise;
+
+    .avatar {
+		height: 70px;
+		width: 70px;
+		border-radius: 50%;
+		background: white;
+		font-size: 28px;
+	}
+
+	.footer-link {
+		font-size: 14px;
+	}
+
+	.avatar span {
+		color: #A8ACA2;
+		letter-spacing: 2px;
+    }
+    
+    .footer-link {
+        color: black;
+        text-transform: uppercase;
+    }
+}
+
