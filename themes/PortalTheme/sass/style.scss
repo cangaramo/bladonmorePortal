@@ -244,6 +244,7 @@
 
 	h2 {
 		font-weight: bold;
+		font-size: 30px;
 	}
 
 	.phone {
@@ -256,6 +257,54 @@
 		}
 	}
 
+	span {
+		font-size: 15px;
+	}
+
+}
+
+.event {
+
+	height: 480px;
+	
+	@media (min-width:768px) {
+		height: 420px;
+	}
+	
+	@media (min-width:1200px) {
+		height: 480px;
+	}
+
+	h3 {
+		font-size: 35px;
+		font-weight: 600;
+	}
+
+	p {
+		margin-bottom: 0;
+		font-weight: 400;
+		font-size: 14px;
+	}
+
+	.title {
+		font-weight: 600;
+	}
+
+	.link {
+		background: $yellow;
+		color: $lightblack !important;
+		padding: 7px 20px;
+		font-size: 14px;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.event-bg {
+		background-position: left center;
+		background-size: cover;
+	}
 }
 
 

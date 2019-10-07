@@ -23,7 +23,8 @@
         <div class="mt-4">
                
             <div class="row">
-                <div class="col-12 col-lg-7 p-0 pr-lg-5 copy">
+
+                <div class="col-xl-7 p-0 pr-lg-5 copy">
                     <p>This is your coaching portal. If your session is coming up you can look at your <a href="/agenda">agenda</a>. 
                     This will tell you the timings and location of the session, as well as an outline of how it will run. 
                     
@@ -40,35 +41,66 @@
                     If you’ve already had your session, we hope you enjoyed it. You can watch your <a href="/videogallery">videos</a>, and read your <a href="/feedback">feedback note</a>. 
                     If you need us again or have any questions, you can always contact us. Kind regards The Bladonmore Team</p>
                 </div> 
-                <div class="col-12 col-lg-4 p-0">
 
+                <div class="col-xl-4 p-0">
+
+                    <div class="position-relative event">
+
+                        <div class="w-100 h-100 event-bg" style="background-image:url('<?php echo get_bloginfo('template_directory'); ?>/images/event_illustration.jpg')"></div>
+
+                        <div style="position:absolute;top:0; color: white">
+
+                            <div class="px-4 py-5 mt-3">
+                                <h3>Responsible profit?</h3>
+                                <p>A discussion arond the value of responsible investment.</p> <br>
+                                <p class="title">Breakfast seminar</p>
+                                <p>Time: 08:14-09:45<p>
+                                <p>Date: October 9th, 2019<p>
+                                <p>Time: 7th Floor<p>
+                                <p>55 New Oxford Street, <br>London, WC1A 1BS<p>
+
+                                <div class="mt-5">
+                                    <a class="link" href="https://www.bladonmore.com/responsible-profit/">Reserve your place</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
                     <?php 
                     $saymore_user_id = get_field('app_user', $user);
                     $username = get_the_title($saymore_user_id);
                     $password = get_field('password', $saymore_user_id);
                     ?>
-                   
                     <!-- saymore -->
-                    <div class="saymore py-4 d-flex flex-column text-center justify-content-center">
+                    <div class="saymore py-4 d-flex flex-column text-center text-sm-left text-xl-center justify-content-center my-4">
 
-                        <img class="phone mx-auto" style="width: 150px; height: 285px !important" src="<?php echo get_bloginfo('template_directory'); ?>/images/saymore.png"/>
+                        <div class="row">
 
-                        <h2 class="mt-4 mb-1">SAYMORE</h2>
-                        <p class="mb-3">The presentation app</p>
+                            <div class="col-12 col-sm-5 col-md-3 col-xl-12">
+                                <img class="phone mx-auto d-block" style="width: 140px; height: 285px !important" src="<?php echo get_bloginfo('template_directory'); ?>/images/saymore.png"/>
+                            </div>
 
-                        <div>
-                            <span class="m-0" style="font-weight:bold">username</span>
-                            <span class="m-0 pl-3"><?php echo $username ?></span>
-                        </div>
+                            <div class="col-12 col-sm-7 col-md-9 col-xl-12">
+                                <h2 class="mt-5 mt-lg-2 mb-1">SAYMORE</h2>
+                                <p class="mb-3">The presentation app</p>
 
-                        <div>
-                            <span class="m-0" style="font-weight:bold">password</span>
-                            <span class="m-0 pl-3"><?php echo $password ?></span>
-                        </div>
+                                <div>
+                                    <span class="m-0" style="font-weight:bold">username</span>
+                                    <span class="m-0 pl-3"><?php echo $username ?></span>
+                                </div>
 
-                        <div class="mt-4 d-flex justify-content-center">
-                            <a href="https://itunes.apple.com/us/app/saymore-bladonmore/id1439891716?ls=1&mt=8"><img class="mr-1" height="30" src="<?php echo get_bloginfo('template_directory'); ?>/images/appstore.png"/></a>
-                            <a href="https://play.google.com/store/apps/details?id=com.Bladonmore.Coaching"><img class="ml-1" height="30" src="<?php echo get_bloginfo('template_directory'); ?>/images/googleplay.png"/></a>
+                                <div>
+                                    <span class="m-0" style="font-weight:bold">password</span>
+                                    <span class="m-0 pl-3"><?php echo $password ?></span>
+                                </div>
+
+                                <div class="mt-4 d-flex justify-content-center justify-content-sm-start  justify-content-xl-center">
+                                    <a href="https://itunes.apple.com/us/app/saymore-bladonmore/id1439891716?ls=1&mt=8"><img class="mr-1" height="30" src="<?php echo get_bloginfo('template_directory'); ?>/images/appstore.png"/></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.Bladonmore.Coaching"><img class="ml-1" height="30" src="<?php echo get_bloginfo('template_directory'); ?>/images/googleplay.png"/></a>
+                                </div>
+                            </div>
+
                         </div>
 
                     </div> <!-- saymore -->
