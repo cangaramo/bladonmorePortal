@@ -44,6 +44,7 @@
 
                 <div class="col-xl-4 p-0">
 
+                    <!-- hide advert 
                     <div class="position-relative event">
 
                         <div class="w-100 h-100 event-bg" style="background-image:url('<?php echo get_bloginfo('template_directory'); ?>/images/event_illustration.jpg')"></div>
@@ -65,7 +66,7 @@
                             </div>
 
                         </div>
-                    </div>
+                    </div> -->
                     
                     <?php 
                     $saymore_user_id = get_field('app_user', $user);
