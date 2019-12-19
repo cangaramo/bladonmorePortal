@@ -44,29 +44,26 @@
 
                 <div class="col-xl-4 p-0">
 
-                    <!-- hide advert 
+                    <!-- hide advert -->
                     <div class="position-relative event">
 
-                        <div class="w-100 h-100 event-bg" style="background-image:url('<?php echo get_bloginfo('template_directory'); ?>/images/event_illustration.jpg')"></div>
+                        <div class="w-100 h-100 event-bg"></div>
 
                         <div style="position:absolute;top:0; color: white">
 
-                            <div class="px-4 py-5 mt-3">
-                                <h3>Responsible profit?</h3>
-                                <p>A discussion arond the value of responsible investment.</p> <br>
-                                <p class="title">Breakfast seminar</p>
-                                <p>Time: 08:14-09:45<p>
-                                <p>Date: October 9th, 2019<p>
-                                <p>Time: 7th Floor<p>
-                                <p>55 New Oxford Street, <br>London, WC1A 1BS<p>
+                            <div class="px-4 py-5 mt-2 text-center">
+                                <h3>It's a wrap</h3>
+                                <p>This year, we’ve wrapped up the top ten stories that we’ve engaged with throughout the year. They are inspiring stories from individuals and companies, professional storytellers and novices. 
+                                Many of them are headline grabbing; others are simply well told. We hope you enjoy reading them over the festive period.</p>
 
-                                <div class="mt-5">
-                                    <a class="link" href="https://www.bladonmore.com/responsible-profit/">Reserve your place</a>
+                                <div class="mt-2">
+                                    <img class="mb-4 pb-3 float" src="<?php echo get_bloginfo('template_url')?>/images/wrap.png">
+                                    <div><a class="link" href="https://www.bladonmore.com/responsible-profit/">Unwrap stories</a></div>
                                 </div>
                             </div>
 
                         </div>
-                    </div> -->
+                    </div> 
                     
                     <?php 
                     $saymore_user_id = get_field('app_user', $user);
