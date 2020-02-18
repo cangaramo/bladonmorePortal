@@ -45,20 +45,27 @@
                 <div class="col-xl-4 p-0">
 
                     <!-- hide advert -->
-                    <div class="position-relative event">
+                    <div class="position-relative event" >
 
                         <div class="w-100 h-100 event-bg"></div>
 
-                        <div style="position:absolute;top:0; color: white">
+                        <div style="position:absolute;top:0; color: white" >
 
-                            <div class="px-4 py-5 mt-2 text-center">
-                                <h3>It's a wrap</h3>
-                                <p>This year, we’ve wrapped up the top ten stories that we’ve engaged with throughout the year. They are inspiring stories from individuals and companies, professional storytellers and novices. 
-                                Many of them are headline grabbing; others are simply well told. We hope you enjoy reading them over the festive period.</p>
-
-                                <div class="mt-2">
-                                    <img class="mb-4 pb-3 float" src="<?php echo get_bloginfo('template_url')?>/images/wrap.png">
-                                    <div><a class="link" href="https://www.bladonmore.com/responsible-profit/">Unwrap stories</a></div>
+                            <div class="px-4 py-5">
+                                <h3 class="mb-4">Audiences failing to byte?</h3>
+                                <div class="row mt-4 pt-5 px-0">
+                                    <div class="col-sm-7 px-0 desc">
+                                        <p>A breakfast discussion on how to build belief in your data and tech communication story.</p></br>
+                                    </div>
+                                    <div class="col-xl-9 px-0">
+                                        <p>Time: 08:15 – 09.45</p>
+                                        <p>Date: Thursday 27th February, 2020</p>
+                                        <p>Venue: 55 New Oxford Street,</p>
+                                        <p>London, WC1A 1BS</p>
+                                    </div>
+                                </div>
+                                <div class="mt-5">
+                                    <div><a class="link" href="https://www.bladonmore.com/events/">Reserve your place</a></div>
                                 </div>
                             </div>
 
