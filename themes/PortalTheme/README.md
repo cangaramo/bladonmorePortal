@@ -86,6 +86,7 @@ If the user role is Client show the ability to approve feedback
 
 The approve event is in mains.js
 
+
 Approve button opens up a confirmation box #approveAlert. (located in modal-approve.php)
 
 Confirm approve button triggers updateStatus() that changes the status from Pending to Approved
@@ -93,6 +94,7 @@ Confirm approve button triggers updateStatus() that changes the status from Pend
 Request changes open a modal with the form #requestForm (located in modal-request.changes.php)
 
 Request form button triggers updateStatus() that changes the status from Pending to Awaiting Feedback and sends an email.
+
 
 Update_status is an AJAX function in functions.php
 
