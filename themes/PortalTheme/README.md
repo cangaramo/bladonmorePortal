@@ -1,4 +1,4 @@
-## Client will see:
+### Client will see:
 
 **Dashboard:**
 
@@ -7,7 +7,7 @@
 
 **Delegates:**
 
-Located in *component-delegates.php*
+* Located in *component-delegates.php*
 
 **Agenda:**
 
@@ -16,7 +16,7 @@ Located in *component-delegates.php*
 
 **Feedback:**
 
-* Located in component-feedback
+* Located in *component-feedback.php*
 * Get feedback of the delegates of this client (*query-get_feedbacks_admin.php*)
 
 **Videos:** 
@@ -24,42 +24,47 @@ Located in *component-delegates.php*
 * Located in component-videos
 * Get videos of the delegates of this client (*query-get_videos_admin.php*)
 
-- **Approvals:** 
-    Located in component-approvals. 
-    It contains: *part-agenda_item_approval.php* and *part-feedback_item_approval.php*
-- **Faculty:**
-    Located in *component-team.php*
-- **Contact**
-    Located in *component-contact.php*
+**Approvals:** 
 
-## Delegate will see:
+* Located in *component-approvals.php*
+* It contains: *part-agenda_item_approval.php* and *part-feedback_item_approval.php*
+
+**Faculty:**
+
+* Located in *component-team.php*
+
+**Contact**
+
+* Located in *component-contact.php*
+
+### Delegate will see:
 
 - **Dashboard:**
     Located in *component-dashboard* > *part-dashboard_client.php*
     Contain sessions and pending approvals
 - **Agenda:**
-    Located in component-agenda
+    Located in *component-agenda.php*
     Get agendas of this delegate (query-get_agendas.php)
 - **Feedback:** 
-    Located in component-feedback
+    Located in *component-feedback.php*
     Get feedback of this delegate (query-get_feedbacks.php)
 - **Videos:** 
-    Located in component-videos
+    Located in *component-videos.php*
     Get videos of the delegate (query-get_videos.php)
 - **Documents:**
-    Located in component-documents. 
+    Located in *component-documents.php*
     Get documents of this delegate (query-get_documents.php)
 - **Faculty:**
-    Located in component-team.
+    Located in *component-team.php*
 - **Contact**
-    Located in component-contact
+    Located in *component-contact.php*
 
-## Single feedback
+### Single feedback
 - Session field  matches the feedback post with its session.
 - Fields: Overview, what went well, what needs work, conclusions and an extra field for more information 
 - Located in part-feedback_info
 
-### Approve feedback:
+#### Approve feedback:
 - When the feedback post is created the status is Pending.
 - If we don't want the client to approve feedback we can turn this off in WorPress.
 - If the user role is Client show the ability to approve feedback
