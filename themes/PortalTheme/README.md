@@ -78,19 +78,22 @@ Contain sessions and pending approvals
 - Located in *part-feedback_info.php*
 
 #### Approve feedback:
-* When the feedback post is created the status is Pending.
-* If we don't want the client to approve feedback we can turn this off in WorPress.
-* If the user role is Client show the ability to approve feedback
-* The approve event is in mains.js
+When the feedback post is created the status is Pending.
 
+If we don't want the client to approve feedback we can turn this off in WorPress.
 
-* Approve button opens up a confirmation box #approveAlert. (located in modal-approve.php)
-* Confirm approve button triggers updateStatus() that changes the status from Pending to Approved
+If the user role is Client show the ability to approve feedback
 
+The approve event is in mains.js
 
-* Request changes open a modal with the form #requestForm (located in modal-request.changes.php)
-*  Request form button triggers updateStatus() that changes the status from Pending to Awaiting Feedback and sends an email.
+Approve button opens up a confirmation box #approveAlert. (located in modal-approve.php)
 
+Confirm approve button triggers updateStatus() that changes the status from Pending to Approved
 
-* Update_status is an AJAX function in functions.php
-* It updates the field "feedback_status"
+Request changes open a modal with the form #requestForm (located in modal-request.changes.php)
+
+Request form button triggers updateStatus() that changes the status from Pending to Awaiting Feedback and sends an email.
+
+Update_status is an AJAX function in functions.php
+
+It updates the field "feedback_status"
