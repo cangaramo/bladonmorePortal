@@ -1,47 +1,47 @@
-### CLIENT WILL SEE:
+## Client will see:
 
-- *Dashboard:*
-    Located in component-dashboard > part-dashboard_client.php
+- **Dashboard:**
+    Located in *component-dashboard.php* > *part-dashboard_client.php*
     Contain sessions and pending approvals
-- Delegates:
-    Located in component-delegates
-- Agenda:
-    Located in component-agenda
-    Get agendas of the delegates of this client (query-get_agendas_admin.php)
-- Feedback: 
+- **Delegates:**
+    Located in *component-delegates.php*
+- **Agenda:**
+    Located in *component-agenda.php*
+    Get agendas of the delegates of this client (*query-get_agendas_admin.php*)
+- **Feedback:**
     Located in component-feedback
-    Get feedback of the delegates of this client (query-get_feedbacks_admin.php)
-- Videos: 
+    Get feedback of the delegates of this client (*query-get_feedbacks_admin.php*)
+- **Videos:** 
     Located in component-videos
-    Get videos of the delegates of this client (query-get_videos_admin.php)
-- Approvals: 
+    Get videos of the delegates of this client (*query-get_videos_admin.php*)
+- **Approvals:** 
     Located in component-approvals. 
-    It contains: part-agenda_item_approval and part-feedback_item_approval
-- Faculty:
-    Located in component-team.
-- Contact
-    Located in component-contact
+    It contains: *part-agenda_item_approval.php* and *part-feedback_item_approval.php*
+- **Faculty:**
+    Located in *component-team.php*
+- **Contact**
+    Located in *component-contact.php*
 
-### DELEGATE WILL SEE:
+## Delegate will see:
 
-- Dashboard: 
-    Located in component-dashboard > part-dashboard_client.php
+- **Dashboard:**
+    Located in *component-dashboard* > *part-dashboard_client.php*
     Contain sessions and pending approvals
-- Agenda:
+- **Agenda:**
     Located in component-agenda
     Get agendas of this delegate (query-get_agendas.php)
-- Feedback: 
+- **Feedback:** 
     Located in component-feedback
     Get feedback of this delegate (query-get_feedbacks.php)
-- Videos: 
+- **Videos:** 
     Located in component-videos
     Get videos of the delegate (query-get_videos.php)
-- Documents: 
+- **Documents:**
     Located in component-documents. 
     Get documents of this delegate (query-get_documents.php)
-- Faculty:
+- **Faculty:**
     Located in component-team.
-- Contact
+- **Contact**
     Located in component-contact
 
 ## Single feedback
