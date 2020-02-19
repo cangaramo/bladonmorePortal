@@ -1,25 +1,25 @@
 ## Client will see:
 
-- **Dashboard:**
+**Dashboard:**
     Located in *component-dashboard.php* > *part-dashboard_client.php*
     Contain sessions and pending approvals
-- **Delegates:**
+**Delegates:**
     Located in *component-delegates.php*
-- **Agenda:**
+**Agenda:**
     Located in *component-agenda.php*
     Get agendas of the delegates of this client (*query-get_agendas_admin.php*)
-- **Feedback:**
+**Feedback:**
     Located in component-feedback
     Get feedback of the delegates of this client (*query-get_feedbacks_admin.php*)
-- **Videos:** 
+**Videos:** 
     Located in component-videos
     Get videos of the delegates of this client (*query-get_videos_admin.php*)
-- **Approvals:** 
+**Approvals:** 
     Located in component-approvals. 
     It contains: *part-agenda_item_approval.php* and *part-feedback_item_approval.php*
-- **Faculty:**
+**Faculty:**
     Located in *component-team.php*
-- **Contact**
+**Contact**
     Located in *component-contact.php*
 
 ## Delegate will see:
