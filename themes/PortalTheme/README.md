@@ -1,8 +1,8 @@
 ## Client will see:
 
 **Dashboard:**
-- Located in *component-dashboard.php* > *part-dashboard_client.php*
-- Contain sessions and pending approvals
+* Located in *component-dashboard.php* > *part-dashboard_client.php*
+* Contain sessions and pending approvals
 
 - **Delegates:**
     Located in *component-delegates.php*
