@@ -5,17 +5,25 @@
 * Located in *component-dashboard.php* > *part-dashboard_client.php*
 * Contain sessions and pending approvals
 
-- **Delegates:**
-    Located in *component-delegates.php*
-- **Agenda:**
-    Located in *component-agenda.php*
-    Get agendas of the delegates of this client (*query-get_agendas_admin.php*)
-- **Feedback:**
-    Located in component-feedback
-    Get feedback of the delegates of this client (*query-get_feedbacks_admin.php*)
-- **Videos:** 
-    Located in component-videos
-    Get videos of the delegates of this client (*query-get_videos_admin.php*)
+**Delegates:**
+
+Located in *component-delegates.php*
+
+**Agenda:**
+
+* Located in *component-agenda.php*
+* Get agendas of the delegates of this client (*query-get_agendas_admin.php*)
+
+**Feedback:**
+
+* Located in component-feedback
+* Get feedback of the delegates of this client (*query-get_feedbacks_admin.php*)
+
+**Videos:** 
+
+* Located in component-videos
+* Get videos of the delegates of this client (*query-get_videos_admin.php*)
+
 - **Approvals:** 
     Located in component-approvals. 
     It contains: *part-agenda_item_approval.php* and *part-feedback_item_approval.php*
