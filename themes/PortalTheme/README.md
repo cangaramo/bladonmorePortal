@@ -39,27 +39,27 @@
 
 ### Delegate will see:
 
-- **Dashboard:**
+**Dashboard:**
 
 Located in *component-dashboard* > *part-dashboard_client.php*
 Contain sessions and pending approvals
 
-- **Agenda:**
+**Agenda:**
 
 * Located in *component-agenda.php*
 * Get agendas of this delegate (*query-get_agendas.php*)
 
-- **Feedback:** 
+**Feedback:** 
 
 * Located in *component-feedback.php*
 * Get feedback of this delegate (*query-get_feedbacks.php*)
 
-- **Videos:** 
+**Videos:** 
 
 * Located in *component-videos.php*
 * Get videos of the delegate (*query-get_videos.php*)
 
-- **Documents:**
+**Documents:**
 
 * Located in *component-documents.php*
 * Get documents of this delegate (query-get_documents.php)
@@ -68,7 +68,7 @@ Contain sessions and pending approvals
 
 * Located in *component-team.php*
 
-- **Contact**
+**Contact**
 
 * Located in *component-contact.php*
 
@@ -83,11 +83,14 @@ Contain sessions and pending approvals
 * If the user role is Client show the ability to approve feedback
 * The approve event is in mains.js
 
+
 * Approve button opens up a confirmation box #approveAlert. (located in modal-approve.php)
 * Confirm approve button triggers updateStatus() that changes the status from Pending to Approved
 
+
 * Request changes open a modal with the form #requestForm (located in modal-request.changes.php)
 *  Request form button triggers updateStatus() that changes the status from Pending to Awaiting Feedback and sends an email.
+
 
 * Update_status is an AJAX function in functions.php
 * It updates the field "feedback_status"
